@@ -1,0 +1,7 @@
+---
+applications:
+- name: testapp-dynatrace-presentation
+  buildpack: java_buildpack_offline_rabo_v4_12
+  path: target/demo-0.1.jar
+  routes:
+  - route: testapp-dynatrace-presentation.apps.pcf-p01.rabobank.nl
