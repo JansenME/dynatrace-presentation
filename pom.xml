@@ -6,7 +6,7 @@
     <groupId>com.testapp</groupId>
     <artifactId>demo</artifactId>
     <version>0.1</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>Testapp demo</name>
     <description>Testapp for Dynatrace presentation</description>
