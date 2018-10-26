@@ -16,7 +16,6 @@ public class TestController {
     @GetMapping("/generateNumber")
     public ResponseEntity<Number> getEndpoint(){
         int randomNumber = ThreadLocalRandom.current().nextInt(1, 11);
-        log.info("{}", randomNumber);
 
         if(randomNumber == 2) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
